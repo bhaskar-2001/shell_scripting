@@ -1,7 +1,8 @@
 #!/bin/bash
 
 <<info
-this shell script will take periaodic backups
+this shell script will take backups using cronjobs periodically 
+and upload the backups file to the AWS S3.
 info
 
 src=$1
